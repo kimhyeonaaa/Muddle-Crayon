@@ -1,0 +1,779 @@
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#navs{
+    height: 10vmax;
+    width: 80vmax;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+#menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22vmax;
+    height: 10vmax;
+    margin: 0;
+    font-size: 1.2vmax;
+    font-family: 'PT Serif', serif;
+    padding-left: 7vmax;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#menus li a{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+#menus li a:hover{
+    text-decoration: underline;
+}
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+#first{
+    position: absolute;
+}
+
+
+.empty01{
+    width: 34vmax;
+    height: 21vmax;
+
+    float: left;
+
+}
+
+
+
+.muddle01{
+    width: 20vmax;
+    height: 21vmax;
+
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.muddle01:hover .name01{
+    opacity: 1;
+}
+
+.muddle01 .name01{
+    position: absolute;
+    top: 8.3vmax;
+    left: 5.7vmax;
+    font-size: 1.4vmax;
+    font-family: 'Hahmlet', serif;
+    color: #ffffff;
+    opacity: 0;
+    text-align: center;
+}
+
+.green{
+    width: 17vmax;
+
+}
+
+#second{
+    position: absolute;
+    top: 30vmax;
+}
+
+.muddle02{
+    width: 30vmax;
+    height: 26vmax;
+    position: relative;
+    float: left;
+
+}
+
+
+.muddle02 .name02{
+    position: absolute;
+    top: 9.9vmax;
+    left: 10.4vmax;
+    font-size: 1.4vmax;
+    font-family: 'Hahmlet', serif;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+
+.muddle02:hover .name02{
+    opacity: 1;
+}
+
+.empty02{
+    width: 28vmax;
+    height: 26vmax;
+    float: left;
+}
+
+.darkgray{
+    width: 30vmax;
+}
+
+#third{
+    position: absolute;
+    top: 55vmax;
+}
+
+.empty03{
+    width: 46vmax;
+    height: 20vmax;
+    float: left;
+
+}
+
+.muddle03{
+    width: 20vmax;
+    height: 20vmax;
+    float: left;
+    text-align: right;
+    position: relative;
+
+}
+
+.muddle03 .name03{
+    position: absolute;
+    top: 7.3vmax;
+    right: 5vmax;
+    font-size: 1.4vmax;
+    font-family: 'Hahmlet', serif;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+
+.muddle03:hover .name03{
+    opacity: 1;
+}
+
+.blue{
+    width: 20vmax;
+}
+
+#forth{
+    position: absolute;
+    top: 74vmax;
+}
+
+.muddle04{
+    width: 40vmax;
+    height: 24vmax;
+    position: relative;
+    float: left;
+
+}
+
+.lightgray{
+    width: 40vmax;
+}
+
+.muddle04 .name04{
+    position: absolute;
+    top: 9.1vmax;
+    left: 16.8vmax;
+    font-size: 1.4vmax;
+    font-family: 'Hahmlet', serif;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+
+.muddle04:hover .name04{
+    opacity: 1;
+}
+
+.empty04{
+    width: 26vmax;
+    height: 24vmax;
+
+    float: left;
+}
+
+#fifth{
+    position: absolute;
+    top: 100vmax;
+}
+
+.empty05{
+    width: 46vmax;
+    height: 19vmax;
+
+    float: left;
+}
+
+.muddle05{
+    width: 22vmax;
+    height: 19vmax;
+    position: relative;
+    float: right;
+
+    text-align: right;
+}
+
+.brown{
+    width: 22vmax;
+}
+
+.muddle05 .name05{
+    position: absolute;
+    top: 6vmax;
+    right: 7vmax;
+    font-size: 1.4vmax;
+    font-family: 'Hahmlet', serif;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+
+.muddle05:hover .name05{
+    opacity: 1;
+}
+
+#sixth{
+    position: absolute;
+    top: 118vmax;
+}
+
+.muddle06{
+    width: 24vmax;
+    height: 22vmax;
+    position: relative;
+    float: left;
+}
+
+.empty06{
+    width: 26vmax;
+    height: 22vmax;
+
+    float: left;
+}
+
+.sand{
+    width: 24vmax;
+}
+
+.muddle06 .name06{
+    position: absolute;
+    top: 8.3vmax;
+    left: 7.8vmax;
+    font-size: 1.4vmax;
+    font-family: 'Hahmlet', serif;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+
+.muddle06:hover .name06{
+    opacity: 1;
+}
+
+
+#seventh{
+    position: absolute;
+    top: 137vmax;
+}
+
+.empty07{
+    width: 46vmax;
+    height: 19vmax;
+
+    float: left;
+}
+
+.muddle07{
+    width: 22vmax;
+    height: 19vmax;
+    position: relative;
+    float: right;
+
+    text-align: right;
+}
+
+.orange{
+    width: 21vmax;
+}
+
+.muddle07 .name07{
+    position: absolute;
+    top: 7.5vmax;
+    right: 6vmax;
+    font-size: 1.4vmax;
+    font-family: 'Hahmlet', serif;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+
+.muddle07:hover .name07{
+    opacity: 1;
+}
+
+#eighth{
+    position: absolute;
+    top: 165vmax;
+}
+
+.muddle08{
+    width: 50vmax;
+    height: 22vmax;
+    position: relative;
+    float: left;
+
+}
+
+.empty08{
+    width: 20vmax;
+    height: 22vmax;
+    float: left;
+}
+
+.gray{
+    width: 50vmax;
+}
+
+.muddle08 .name08{
+    position: absolute;
+    top: 6.5vmax;
+    left: 23vmax;
+    font-size: 1.4vmax;
+    font-family: 'Hahmlet', serif;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+
+.muddle08:hover .name08{
+    opacity: 1;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 1vmax;
+    font-family: 'Hahmlet', serif;
+    color: black;
+}
+
+#box2{
+    height: 0.1vmax;
+    width: 72vmax;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 210vmax;
+}
+
+
+.box11{
+    width: 25vmax;
+    height: 15vmax;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 205vmax;
+    line-height: 2vmax;
+}
+
+.box22{
+    width: 25vmax;
+    height: 15vmax;
+
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 205vmax;
+    line-height: 2vmax;
+}
+.box33{
+    width: 25vmax;
+    height: 15vmax;
+
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 205vmax;
+    line-height: 2vmax;
+}
+
+
+
+.muddle01 img:last-child{display:none} 
+.muddle01:hover img:first-child{display:none} 
+.muddle01:hover img:last-child{display:inline-block}
+
+.muddle02 img:last-child{display:none} 
+.muddle02:hover img:first-child{display:none} 
+.muddle02:hover img:last-child{display:inline-block}
+
+.muddle03 img:last-child{display:none} 
+.muddle03:hover img:first-child{display:none} 
+.muddle03:hover img:last-child{display:inline-block}
+
+.muddle04 img:last-child{display:none} 
+.muddle04:hover img:first-child{display:none} 
+.muddle04:hover img:last-child{display:inline-block}
+
+.muddle05 img:last-child{display:none} 
+.muddle05:hover img:first-child{display:none} 
+.muddle05:hover img:last-child{display:inline-block}
+
+.muddle06 img:last-child{display:none} 
+.muddle06:hover img:first-child{display:none} 
+.muddle06:hover img:last-child{display:inline-block}
+
+.muddle07 img:last-child{display:none} 
+.muddle07:hover img:first-child{display:none} 
+.muddle07:hover img:last-child{display:inline-block}
+
+.muddle08 img:last-child{display:none} 
+.muddle08:hover img:first-child{display:none} 
+.muddle08:hover img:last-child{display:inline-block}
+
+
+
+@media only screen and (max-width: 768px)
+{
+
+    #body{
+        overflow-x: hidden;
+    }
+
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #navs{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    
+    
+    #menus{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20vmax;
+        height: 8vmax;
+        margin: 0;
+        font-size: 1.2vmax;
+        font-family: 'PT Serif', serif;
+        padding-left: 3vmax;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+    #menus li a{
+        font-weight: 700;
+        color: black;
+        text-decoration: none;
+        text-align: left;
+
+    }
+    
+
+
+
+    #box{
+        position: absolute;
+        top: 204vmax;
+        height: 0.1vmax;
+        width: 42vmax;
+        background-color: rgb(0, 0, 0);
+    }
+
+
+    #first{
+        position: absolute;
+        width: 40vmax;
+        height: 20vmax;
+        top: 10vmax;
+    }
+
+    .green{
+        width: 17vmax;
+
+    }
+
+
+    .empty01{
+        width: 20vmax;
+        height: 20vmax;
+        float: left;
+    
+    }
+    
+    
+    .muddle01{
+        width: 20vmax;
+        height: 20vmax;
+    
+        float: left;
+        text-align: center;
+        position: relative;
+    }
+
+
+    #second{
+        position: absolute;
+        top: 30vmax;
+        width: 40vmax;
+        height: 26vmax;
+    }
+    
+    .muddle02{
+        width: 30vmax;
+        height: 26vmax;
+        position: relative;
+        float: left;
+    }
+    
+    .empty02{
+        width: 28vmax;
+        height: 26vmax;
+        float: left;
+    }
+
+    #third{
+        position: absolute;
+        top: 58vmax;
+        width: 40vmax;
+        height: 20vmax;
+
+    }
+    
+    .empty03{
+        width: 20vmax;
+        height: 20vmax;
+        float: left;
+    
+    }
+    
+    .muddle03{
+        width: 20vmax;
+        height: 20vmax;
+        float: left;
+        text-align: right;
+        position: relative;
+    
+    }
+
+    #forth{
+        position: absolute;
+        top: 80vmax;
+        width: 40vmax;
+        height: 21vmax;
+    }
+    
+    .muddle04{
+        width: 35vmax;
+        height: 21vmax;
+        position: relative;
+        float: left;
+    
+    }
+
+    .empty04{
+        width: 5vmax;
+        height: 21vmax;
+        float: left;
+    }
+
+    .lightgray{
+        width: 35vmax;
+    }
+
+    .muddle04 .name04{
+        position: absolute;
+        top: 7.5vmax;
+        left: 14.5vmax;
+        font-size: 1.4vmax;
+        font-family: 'Hahmlet', serif;
+        opacity: 0;
+        text-align: center;
+        color: white;
+    }
+
+    #fifth{
+        position: absolute;
+        top: 105vmax;
+        width: 35vmax;
+        height: 19vmax;
+    }
+    
+    .empty05{
+        width: 15vmax;
+        height: 19vmax;
+    
+        float: left;
+    }
+    
+    .muddle05{
+        width: 20vmax;
+        height: 19vmax;
+        position: relative;
+        float: right;
+    }
+
+    .muddle05 .name05{
+        position: absolute;
+        top: 6vmax;
+        right: 5.3vmax;
+        font-size: 1.4vmax;
+        font-family: 'Hahmlet', serif;
+        color: white;
+        opacity: 0;
+        text-align: center;
+    }
+
+    #sixth{
+        position: absolute;
+        top: 128vmax;
+        width: 35vmax;
+        height: 22vmax;
+    }
+    
+    .muddle06{
+        width: 24vmax;
+        height: 22vmax;
+        position: relative;
+        float: left;
+    }
+    
+    .empty06{
+        width: 26vmax;
+        height: 22vmax;
+        float: left;
+    }
+
+    #seventh{
+        position: absolute;
+        top: 153vmax;
+        width: 35vmax;
+        height: 21vmax;
+    }
+    
+    .empty07{
+        width: 5vmax;
+        height: 21vmax;
+        float: left;
+    }
+    
+    .muddle07{
+        width: 21vmax;
+        height: 21vmax;
+        position: relative;
+        float: right;
+        text-align: right;
+    }
+
+    #eighth{
+        position: absolute;
+        top: 178vmax;
+        width: 42vmax;
+        height: 21vmax;
+    }
+    
+    .muddle08{
+        width: 50vmax;
+        height: 22vmax;
+        position: relative;
+        float: left;
+    
+    }
+    
+    .empty08{
+        width: 0vmax;
+        height: 22vmax;
+        float: left;
+    }
+
+    .gray{
+        width: 42vmax;
+    }
+    
+    .muddle08 .name08{
+        position: absolute;
+        top: 5.2vmax;
+        left: 20vmax;
+        font-size: 1.4vmax;
+        font-family: 'Hahmlet', serif;
+        color: white;
+        opacity: 0;
+        text-align: center;
+    }
+
+    .box11{
+        width: 14vmax;
+        height: 15vmax;
+        float: left;
+        text-align: center;
+        position: relative;
+
+        line-height: 2vmax;
+    }
+    
+    .box22{
+        width: 14vmax;
+        height: 15vmax;
+        float: left;
+        text-align: center;
+        position: relative;
+
+        line-height: 2vmax;
+    }
+    .box33{
+        width: 14vmax;
+        height: 15vmax;
+        float: left;
+        text-align: center;
+        position: relative;
+
+        line-height: 2vmax;
+    }
+
+
+    #box2{
+        position: absolute;
+        top: 205vmax;
+        height: 0.1vmax;
+        width: 42vmax;
+        background-color: rgb(0, 0, 0);
+    }
+
+
+    #footer{
+        display: flex;
+        justify-content: center;
+        font-size: 1vmax;
+        font-family: 'Hahmlet', serif;
+        color: black;
+        position: absolute;
+        top: 5vmax;
+    }
+
+
+
+}

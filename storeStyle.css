@@ -1,0 +1,520 @@
+
+
+body{
+    background-color: rgb(248, 241, 227);
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#navs{
+    height: 12vmax;
+    width: 80vmax;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+#menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22vmax;
+    height: 10vmax;
+    margin: 0;
+    font-size: 1.2vmax;
+    font-family: 'PT Serif', serif;
+    padding-left: 7vmax;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#menus li a{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+#menus li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.muddle1{
+    width: 68vmax;
+    height: 40vmax;
+    float: left;
+}
+
+.muddle01{
+    width: 68vmax;
+}
+
+.muddle2{
+    position: absolute;
+    top: 68vmax;
+    height: 40vmax;
+    width: 68vmax;
+    text-align: center;
+    font-family: 'Hahmlet', serif;
+    font-size: 1.3vmax;
+    line-height: 2.6vmax;
+}
+
+#muddle4{
+    position: absolute;
+    top: 94vmax;
+}
+
+.muddleCrayon{
+    width: 15vmax;
+}
+
+
+.mu01{
+    width: 15vmax;
+    height: 25vmax;
+    float: left;
+
+    margin-right: 1vmax;
+}
+
+
+.mu02{
+    width: 15vmax;
+    height: 25vmax;
+    float: left;
+
+    margin-right: 1vmax;
+}
+
+.mu03{
+    width: 15vmax;
+    height: 25vmax;
+    float: left;
+
+    margin-right: 1vmax;
+}
+
+.mu04{
+    width: 15vmax;
+    height: 25vmax;
+    float: left;
+}
+
+#box{
+    position: absolute;
+    top: 135vmax;
+    height: 0.1vmax;
+    width: 70vmax;
+    background-color: rgb(139, 139, 139);
+}
+
+#product01{
+    position: absolute;
+    top: 140vmax;
+}
+
+.muddlePro{
+    width: 36vmax;
+    height: 43vmax;
+    float: left;
+    margin-right: 1vmax;
+}
+
+.muddleEx .name{
+    text-align: left;
+    font-family: 'Hahmlet', serif;
+    font-size: 2vmax;
+    line-height: 3.2vmax;
+    font-weight: 500;
+}
+
+.muddleEx .price{
+    text-align: left;
+    font-family: 'Hahmlet', serif;
+    font-size: 1.5vmax;
+    line-height: 1.8vmax;
+}
+
+.muddleEx{
+    width: 26vmax;
+    height: 41.4vmax;
+    float: left;
+    background-color: white;
+    text-align: left;
+    font-family: 'Hahmlet', serif;
+    font-size: 0.9vmax;
+    line-height: 1.9vmax;
+    padding-top: 2vmax;
+    padding-right: 1vmax;
+    padding-left: 2.2vmax;
+}
+
+.pro{
+    width: 36vmax;
+}
+
+
+.buy01{
+    position: absolute;
+    top: 187vmax;
+    width: 21vmax;
+    height: 2.8vmax;
+
+    text-align: center;
+    font-family: 'Hahmlet', serif;
+    font-size: 1.8vmax;
+    border: 0.1vmax solid black;
+    border-radius: 8px;
+}
+
+#box1{
+    position: absolute;
+    top: 195vmax;
+    height: 0.1vmax;
+    width: 70vmax;
+    background-color: rgb(139, 139, 139);
+}
+
+#product02{
+    position: absolute;
+    top: 200vmax;
+}
+
+.buy02{
+    position: absolute;
+    top: 247.5vmax;
+    width: 26vmax;
+    height: 2.8vmax;
+
+    text-align: center;
+    font-family: 'Hahmlet', serif;
+    font-size: 1.8vmax;
+    border: 0.1vmax solid black;
+    border-radius: 8px;
+}
+
+
+
+#box2{
+    height: 0.1vmax;
+    width: 72vmax;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 270vmax;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 1vmax;
+    font-family: 'Hahmlet', serif;
+    color: black;
+
+}
+
+.box11{
+    width: 25vmax;
+    height: 15vmax;
+
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 225vmax;
+    line-height: 2vmax;
+}
+
+.box22{
+    width: 25vmax;
+    height: 15vmax;
+
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 225vmax;
+    line-height: 2vmax;
+}
+.box33{
+    width: 25vmax;
+    height: 15vmax;
+
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 225vmax;
+    line-height: 2vmax;
+}
+
+.mu01 img:last-child{display:none} 
+.mu01:hover img:first-child{display:none} 
+.mu01:hover img:last-child{display:inline-block}
+
+.mu02 img:last-child{display:none} 
+.mu02:hover img:first-child{display:none} 
+.mu02:hover img:last-child{display:inline-block}
+
+.mu03 img:last-child{display:none} 
+.mu03:hover img:first-child{display:none} 
+.mu03:hover img:last-child{display:inline-block}
+
+.mu04 img:last-child{display:none} 
+.mu04:hover img:first-child{display:none} 
+.mu04:hover img:last-child{display:inline-block}
+
+
+@media only screen and (max-width: 768px) 
+
+{
+
+    section{
+        display: flex;
+        justify-content: center;
+    }
+
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #navs{
+        height: 5vmax;
+        width: 40vmax;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    
+    
+    #menus{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20vmax;
+        height: 8vmax;
+        margin: 0;
+        font-size: 1.2vmax;
+        font-family: 'PT Serif', serif;
+        padding-left: 3vmax;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+    #menus li a{
+        font-weight: 700;
+        color: black;
+        text-decoration: none;
+        text-align: left;
+    }
+
+    .muddle1{
+        width: 44.2vmax;
+        height: 30vmax;
+    }
+
+    .muddle01{
+        width: 44.2vmax;
+        position: absolute;
+        top: 10vmax;
+    }
+
+    .muddle2{
+        position: absolute;
+        top: 50vmax;
+        height: 20vmax;
+        width: 44.2vmax;
+        text-align: center;
+        font-family: 'Hahmlet', serif;
+        font-size: 1vmax;
+        line-height: 2.6vmax;
+    }
+
+    #muddle4{
+        position: absolute;
+        top: 78vmax;
+    }
+
+    .muddleCrayon{
+        width: 10vmax;
+    }
+
+    .mu01{
+        width: 10vmax;
+        height: 20vmax;
+        float: left;
+
+        margin-right: 1vmax;
+    }
+    
+    
+    .mu02{
+        width: 10vmax;
+        height: 20vmax;
+        float: left;
+    
+        margin-right: 1vmax;
+    }
+    
+    .mu03{
+        width: 10vmax;
+        height: 20vmax;
+        float: left;
+    
+        margin-right: 1vmax;
+    }
+    
+    .mu04{
+        width: 10vmax;
+        height: 20vmax;
+        float: left;
+    }
+
+    #box{
+        position: absolute;
+        top: 105vmax;
+        height: 0.1vmax;
+        width: 44vmax;
+        background-color: rgb(139, 139, 139);
+    }
+    
+    #product01{
+        position: absolute;
+        top: 110vmax;
+    }
+    
+    .muddlePro{
+        width: 48.2vmax;
+        height: 58vmax;
+    }
+    
+    .muddleEx .name{
+        text-align: center;
+        font-family: 'Hahmlet', serif;
+        font-size: 2vmax;
+        line-height: 3.2vmax;
+        font-weight: 500;
+    }
+    
+    .muddleEx .price{
+        text-align: center;
+        font-family: 'Hahmlet', serif;
+        font-size: 1.5vmax;
+        line-height: 1.8vmax;
+    }
+    
+    .muddleEx{
+        width: 45vmax;
+        height: 42vmax;
+        background-color: white;
+        text-align: center;
+        font-family: 'Hahmlet', serif;
+        font-size: 0.9vmax;
+        line-height: 1.9vmax;
+        padding-top: 1vmax;
+    }
+    
+    .pro{
+        width: 48.2vmax;
+    }
+    
+    
+    .buy01{
+        position: absolute;
+        top: 214vmax;
+        width: 21vmax;
+        height: 2.8vmax;
+    
+        text-align: center;
+        font-family: 'Hahmlet', serif;
+        font-size: 1.8vmax;
+        border: 0.1vmax solid black;
+        border-radius: 8px;
+    }
+    
+    #box1{
+        position: absolute;
+        top: 225vmax;
+        height: 0.1vmax;
+        width: 44.2vmax;
+        background-color: rgb(139, 139, 139);
+    }
+    
+    #product02{
+        position: absolute;
+        top: 230vmax;
+    }
+    
+    .buy02{
+        position: absolute;
+        top: 335vmax;
+        width: 26vmax;
+        height: 2.8vmax;
+    
+        text-align: center;
+        font-family: 'Hahmlet', serif;
+        font-size: 1.8vmax;
+        border: 0.1vmax solid black;
+        border-radius: 8px;
+    }
+
+    .box11{
+        width: 14vmax;
+        height: 15vmax;
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 16vmax;
+        line-height: 2vmax;
+    }
+    
+    .box22{
+        width: 14vmax;
+        height: 15vmax;
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 16vmax;
+        line-height: 2vmax;
+    }
+    .box33{
+        width: 14vmax;
+        height: 15vmax;
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 16vmax;
+        line-height: 2vmax;
+    }
+
+
+    #box2{
+        position: absolute;
+        top: 350vmax;
+        height: 0.1vmax;
+        width: 42vmax;
+        background-color: rgb(0, 0, 0);
+    }
+
+
+    #footer{
+        display: flex;
+        justify-content: center;
+        font-size: 1vmax;
+        font-family: 'Hahmlet', serif;
+        color: black;
+        position: absolute;
+        top: 340vmax;
+    }
+}

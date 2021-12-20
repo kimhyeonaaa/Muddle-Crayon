@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    background-color: #6b6b6b;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#navs{
+    height: 10vmax;
+    width: 80vmax;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+#menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22vmax;
+    height: 10vmax;
+    margin: 0;
+    font-size: 1.2vmax;
+    font-family: 'PT Serif', serif;
+    padding-left: 7vmax;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#menus li a{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+#menus li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+#green{
+    position: absolute;
+    top: 10vmax;
+    text-align: center;
+    font-family: 'Hahmlet', serif;
+}
+
+
+.image{
+    width: 20vmax;
+    height: 20vmax;
+}
+
+.box00{
+    width: 60vmax;
+    height: 1vmax;
+    margin-top: 3vmax;
+    margin-bottom: 0vmax;
+    font-size: 2vmax;
+    font-weight: 700;
+
+}
+
+.box01{
+    width: 60vmax;
+    height: 1vmax;
+    margin-top: 0vmax;
+    margin-bottom: 2vmax;
+    font-weight: 700;
+    font-size: 1vmax;
+    
+}
+
+.box1{
+    width: 60vmax;
+    height: 1vmax;
+    margin-top: 2vmax;
+    margin-bottom: 1vmax;
+    font-weight: 700;
+    font-size: 1vmax;
+    
+}
+
+.box02{
+    width: 60vmax;
+    height: 20vmax; 
+}
+
+.box03{
+    width: 60vmax;
+    height: 3vmax;
+    font-weight: 300;
+    font-size: 1vmax;
+    line-height: 1.8vmax;
+    
+}
+
+.box4{
+    width: 30vmax;
+    height: 1vmax;
+    margin-top: 4vmax;
+    float: left;
+    font-weight: 700;
+    font-size: 1vmax;
+}
+
+
+.box5{
+    width: 30vmax;
+    height: 1vmax;
+    margin-top: 4vmax;
+    float: left;
+    font-weight: 700;
+    font-size: 1vmax;
+}
+
+
+
+.box04{
+    width: 30vmax;
+    height: 5vmax;
+    margin-top: 1vmax;
+    float: left;
+    font-weight: 300;
+    font-size: 1vmax;
+    line-height: 1.7vmax;
+}
+
+
+.box05{
+    width: 30vmax;
+    height: 5vmax;
+    margin-top: 1vmax;
+    margin-bottom: 10vmax;
+    float: left;
+    font-weight: 300;
+    font-size: 1vmax;
+    line-height: 1.7vmax;
+}
+
+@media only screen and (max-width: 768px) 
+
+{
+
+    .box03 br{display:none !important;}
+
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #navs{
+        height: 5vmax;
+        width: 40vmax;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #menus{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20vmax;
+        height: 8vmax;
+        margin: 0;
+        font-size: 1.2vmax;
+        font-family: 'PT Serif', serif;
+        padding-left: 3vmax;
+        list-style-type: none;
+        text-decoration: none;
+
+    }
+    
+    #menus li a{
+        font-weight: 700;
+        color: black;
+        text-decoration: none;
+        text-align: left;
+
+
+    }
+
+    .image{
+        width: 20vmax;
+        height: 20vmax;
+    }
+    
+    .box00{
+        width: 40vmax;
+        height: 1vmax;
+        margin-top: 3vmax;
+        margin-bottom: 0vmax;
+        font-size: 1.5vmax;
+        font-weight: 700;
+    }
+    
+    .box01{
+        width: 40vmax;
+        height: 1vmax;
+        margin-top: 0vmax;
+        margin-bottom: 1.5vmax;
+        font-weight: 700;
+        font-size: 1vmax;
+    }
+    
+    .box02{
+        width: 40vmax;
+        height: 20vmax;
+    }
+
+    .box1{
+        width: 40vmax;
+        height: 0.7vmax;
+        margin-top: 2vmax;
+        margin-bottom: 1vmax;
+        font-weight: 700;
+        font-size: 1vmax;
+    }
+    
+    
+    .box03{
+        width: 40vmax;
+        height: 8vmax;
+        font-weight: 300;
+        font-size: 0.6vmax;
+        line-height: 1.8vmax;
+        margin-top: 2vmax;
+        
+    }
+    
+    .box4{
+        width: 40vmax;
+        height: 2vmax;
+        margin-top: 2vmax;
+        font-weight: 700;
+        font-size: 0.7vmax;
+    }
+    
+    .box04{
+        width: 40vmax;
+        height: 5vmax;
+        margin-top: -8vmax;
+        font-weight: 300;
+        font-size: 0.6vmax;
+        line-height: 1.8vmax;
+    }
+    
+    .box5{
+        width: 40vmax;
+        height: 2vmax;
+        margin-top: 7vmax;
+        font-weight: 700;
+        font-size: 0.7vmax;
+    }
+    
+    
+    .box05{
+        width: 40vmax;
+        height: 5vmax;
+        margin-top: 1vmax;
+        margin-bottom: 10vmax;
+        font-weight: 300;
+        font-size: 0.6vmax;
+        line-height: 1.8vmax;
+    }
+
+    .box11{
+        width: 14vmax;
+        height: 15vmax;
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 204vmax;
+        line-height: 2vmax;
+    }
+    
+    .box22{
+        width: 14vmax;
+        height: 15vmax;
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 204vmax;
+        line-height: 2vmax;
+    }
+    .box33{
+        width: 14vmax;
+        height: 15vmax;
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 204vmax;
+        line-height: 2vmax;
+    }
+
+
+    #box2{
+        position: absolute;
+        top: 538vmax;
+        height: 0.1vmax;
+        width: 42vmax;
+        background-color: rgb(0, 0, 0);
+    }
+
+
+    #footer{
+        display: flex;
+        justify-content: center;
+        font-size: 1vmax;
+        font-family: 'Hahmlet', serif;
+        color: black;
+        position: absolute;
+        top: 340vmax;
+    }
+
+
+
+
+}
